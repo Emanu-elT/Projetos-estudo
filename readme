@@ -1,5 +1,3 @@
-PS C:\Users\emanu\Downloads\Programing\Projeto_listagem_pokemon> git config --global user.name "Emanu-elT"      
-PS C:\Users\emanu\Downloads\Programing\Projeto_listagem_pokemon> git config --global user.email "emanueltiago.silva@gmail.com"
-PS C:\Users\emanu\Downloads\Programing\Projeto_listagem_pokemon> git remote add origin https://github.com/Emanu-
-elT/Projetos-estudo.git
-PS C:\Users\emanu\Downloads\Programing\Projeto_listagem_pokemon> 
+git config --global user.name "Emanu-elT"      
+git config --global user.email "emanueltiago.silva@gmail.com"
+git remote add origin https://github.com/Emanu-elT/Projetos-estudo.git
