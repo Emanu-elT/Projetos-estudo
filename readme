@@ -13,3 +13,4 @@ git config --global user.name "Emanu-elT"
 git config --global user.email "emanueltiago.silva@gmail.com"
 git remote add origin https://github.com/Emanu-elT/Projetos-estudo.git
 git checkout -b new-branch //cria um novo branch para codar
+https://www.youtube.com/watch?v=mJ-qvsxPHpY //video do broder explicando
