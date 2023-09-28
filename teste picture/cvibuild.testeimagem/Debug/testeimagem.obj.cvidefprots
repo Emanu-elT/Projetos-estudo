@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[PICTURE]
+Class="Function"
+Prototype="int PICTURE(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OKBUTTON]
+Class="Function"
+Prototype="int OKBUTTON(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[exitButton]
+Class="Function"
+Prototype="int exitButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

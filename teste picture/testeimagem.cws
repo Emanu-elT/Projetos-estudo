@@ -1,6 +1,6 @@
 [Workspace Header]
 Version = 1501
-Pathname = "/c/Users/esilva54/Desktop/teste 25-09/teste 2/OkQuit.cws"
+Pathname = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testeimagem.cws"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2015"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2015"
@@ -11,13 +11,13 @@ VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
 VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
-Project 0001 = "OkQuit.prj"
+Project 0001 = "testeimagem.prj"
 Drag Bar Left = 337
 Window Top = 31
 Window Left = 3
 Window Bottom = 533
 Window Right = 793
-Maximized = False
+Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
 Track Include File Dependencies = True
@@ -30,7 +30,7 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 0
+Number of Opened Files = 3
 Window Confinement Region Enabled = True
 MainColumnWidth = 320
 FileDateColumnWidth = 70
@@ -46,22 +46,41 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/c/Users/esilva54/Desktop/teste 25-09/teste 2/OkQuit.c"
-File Type = "CSource"
-Disk Date = 3778670650
+Path = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testeimagem.uir"
+File Type = "User Interface Resource"
+Disk Date = 3778750823
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Source Window State = "1,64,64,64,83,94,83,0,0,60,0,0,0,0,0,19,69,0,53,14,271,523,1,0,"
+Window Height = 271
+Window Width = 523
+Window Z-Order = 1
 
 [File 0002]
-Path = "/c/Users/esilva54/Desktop/teste 25-09/teste 2/OkQuit.h"
-File Type = "Include"
-Disk Date = 3778670563
+Path = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testeimagem.c"
+File Type = "CSource"
+Disk Date = 3778754350
 In Projects = "1,"
-Window Top = 157
-Window Left = 74
-Source Window State = "1,24,24,24,9,31,31,0,0,80,0,0,0,0,0,25,0,0,15,42,349,683,1,0,"
+Window Top = 95
+Window Left = -67
+Window Z-Order = 2
+Source Window State = "1,20,24,24,4,46,46,0,0,60,0,0,0,0,0,25,22,0,24,13,349,523,1,0,"
+
+[File 0003]
+Path = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testesec.uir"
+File Type = "User Interface Resource"
+Disk Date = 3778750988
+In Projects = ""
+Window Top = 64
+Window Left = 26
+Window Height = 349
+Window Width = 523
+Window Z-Order = 3
+
+[Tab Order]
+Tab 0001 = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testeimagem.uir"
+Tab 0002 = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testeimagem.c"
+Tab 0003 = "/c/Users/esilva54/Desktop/teste 25-09/teste picture/testesec.uir"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

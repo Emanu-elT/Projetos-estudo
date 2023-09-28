@@ -29,15 +29,14 @@ HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activ
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
-LOCATE on "OkQuit.c" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2" ;
-LOCATE on "OkQuit.h" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2" ;
-Object "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\OkQuit.c" ;
-FILENUM on "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj" = 1 ;
-DEFPROTS on "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj.cvidefprots" ;
-OUTFILE on "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj.out" ;
-PrjObjects += "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.obj" ;
-Object "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\resources.res" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\resources.in.rc" ;
-MainFromObjects "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.exe" : $(PrjObjects) $(InstrObjects) ;
-Depends "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.exe" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\link_options.txt" ;
-Depends "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.exe" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\resources.res" ;
-Depends all : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste 2\\cvibuild.OkQuit\\Debug\\OkQuit.exe" ;
+LOCATE on "testeimagem.c" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture" ;
+Object "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\testeimagem.c" ;
+FILENUM on "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj" = 1 ;
+DEFPROTS on "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj" = "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj.out" ;
+PrjObjects += "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.obj" ;
+Object "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\resources.res" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\resources.in.rc" ;
+MainFromObjects "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.exe" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.exe" : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\esilva54\\Desktop\\teste 25-09\\teste picture\\cvibuild.testeimagem\\Debug\\testeimagem.exe" ;

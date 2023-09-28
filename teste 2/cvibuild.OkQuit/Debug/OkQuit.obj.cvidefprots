@@ -10,7 +10,51 @@ Prototype="int OkCallback(int panel, int control, int event, void *callbackData,
 Class="Function"
 Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
 
-[TEXTCallback]
+[OnOpenPortPress]
 Class="Function"
-Prototype="int TEXTCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+Prototype="int OnOpenPortPress(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnClosePortPress]
+Class="Function"
+Prototype="int OnClosePortPress(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ONLEDPRESS1]
+Class="Function"
+Prototype="int ONLEDPRESS1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ONLEDPRESS2]
+Class="Function"
+Prototype="int ONLEDPRESS2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ONLEDPRESS4]
+Class="Function"
+Prototype="int ONLEDPRESS4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ONLEDPRESS3]
+Class="Function"
+Prototype="int ONLEDPRESS3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LightLED1]
+Class="Function"
+Prototype="int LightLED1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LightLED2]
+Class="Function"
+Prototype="int LightLED2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LightLED3]
+Class="Function"
+Prototype="int LightLED3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LightLED4]
+Class="Function"
+Prototype="int LightLED4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Comstatusbox]
+Class="Function"
+Prototype="int Comstatusbox(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LBComPortList]
+Class="Function"
+Prototype="int LBComPortList(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
 
