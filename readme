@@ -1,3 +1,15 @@
+git init //inicializa a pasto onde vc esta como repositorio local
+git add . //seleciona o arquivo(s)
+git commit -m '     ' //sobe o codigo e identifica a alteração
+git push -u origin <branch> //manda os codigos comitados para o repositorio na nuvem
+mkdir xxxxx //criara pasta xxxxx
+cd xxxxx //entrar na pasta xxxxx
+touch yyyy.html aaa.css// criar arquivos yyyy e aaa
+rm yyyy.html//deletar yyyy
+ls //mostra o conteudo da pasta
+cd ../   //subir para um diretorio superior
+rmdir xxxxx // remover(pasta) diretorio xxxxx
 git config --global user.name "Emanu-elT"      
 git config --global user.email "emanueltiago.silva@gmail.com"
 git remote add origin https://github.com/Emanu-elT/Projetos-estudo.git
+git checkout -b new-branch //cria um novo branch para codar
