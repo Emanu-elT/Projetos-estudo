@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+   /* background-color: rgb(255, 255, 255);*/
+}
+body{
+    margin: 0;
+}
+.nav{                   /* adereçar caracteristicas das classes, nele usamos sempre ponto*/
+    background-color: rgb(0, 0, 0);
+    color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; /* separar o conteudo com espaço*/
+    padding: 10px 20px; /*acrescenta espaços entre o texto e as margens*/
+}
+.nav a{            /*adereçar caracteristicas a ancora 'a'*/
+    color:inherit /*muda a cor de link das letras para a padrão preta ou a definida em white*/
+}
+.nav ul{         /*adereçar caracteristicas a ancora 'ul'*/
+    padding: 0;
+    margin: 0;
+    display: flex; /*coloca todo o texto em serie */
+    gap: 2rem;/*a crescenta um espaço entre os links*/
+    list-style: none;/*retira os pontos dos links inferiores da direita*/
+}
