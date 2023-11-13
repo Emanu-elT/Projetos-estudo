@@ -45,6 +45,11 @@ main .listagem-pokemon {
     gap: 30px;
     justify-content: center;
 }
+main .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 main .cartao-pokemon {
     background-color: azure;
