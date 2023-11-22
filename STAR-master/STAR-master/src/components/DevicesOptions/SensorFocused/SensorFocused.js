@@ -188,7 +188,7 @@ const SensorFocused = (props) => {
             />
           </View>
           <View style={{ flexDirection: "column", flex: 0.65 }}>
-            <Text style={styles.state}>MOTION (M/D/Y):</Text>
+            <Text style={styles.state}>LAST IRRIGATION(M/D/Y):</Text>
             <Text style={styles.stateMode}>{motion}</Text>
           </View>
         </View>
@@ -210,7 +210,7 @@ const SensorFocused = (props) => {
             />
           </View>
           <View style={{ flexDirection: "column", flex: 0.65 }}>
-            <Text style={styles.state}>AVG. HUMIDITY:</Text>
+            <Text style={styles.state}>SOIL HUMIDITY:</Text>
             <Text style={styles.stateMode}>{meanHumidity}%</Text>
           </View>
         </View>

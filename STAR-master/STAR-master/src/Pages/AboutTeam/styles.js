@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     // justifyContent: 'space-between',
     // top: 50,
     // marginBottom: 300,
-    backgroundColor: 'white',
+    backgroundColor: 'black',
   },
   authors: {
     flex: 0.15,
