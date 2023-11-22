@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: true }} >
+      <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }} >
         {/* 
           Our app has three main pages: Home, Connect and About.
           'Home' is the landing page of our app;

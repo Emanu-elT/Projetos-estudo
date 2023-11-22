@@ -85,8 +85,8 @@ const Homescreen = ({ navigation }) => {
         <View style={styles.containerContent}>
           {/* Main text content of Home page */}
           <View style={styles.textContent}>
-            <Text style={styles.pageTitle}>STAR</Text>
-            <Text style={styles.pageSubTitle}>Solutions based on IOT</Text>
+            <Text style={styles.pageTitle}>SMART</Text>
+            <Text style={styles.pageSubTitle}>Vaso inteligente</Text>
           </View>
 
           {/* 4 images icons which represents main focus of IOT apps */}
