@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   },
   stateMode: {
     fontSize: 13,
-    color: "#9949C8",
+    color: "#228b22",
     fontFamily: "Roboto_500Medium",
   },
   cardFirstIcon: {

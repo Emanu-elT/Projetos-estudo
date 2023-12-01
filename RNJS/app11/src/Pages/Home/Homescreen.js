@@ -84,10 +84,7 @@ const Homescreen = ({ navigation }) => {
       <View style={styles.containerPrincipal}>
         <View style={styles.containerContent}>
           {/* Main text content of Home page */}
-          <View style={styles.textContent}>
-            <Text style={styles.pageTitle}>SMART</Text>
-            <Text style={styles.pageSubTitle}>Vaso inteligente</Text>
-          </View>
+          
 
           {/* 4 images icons which represents main focus of IOT apps */}
           <View style={styles.imagesIcons}>
@@ -96,18 +93,19 @@ const Homescreen = ({ navigation }) => {
               source={require("../../../assets/icons/phone.png")}
             />
             <Image
-              style={{ width: 36, height: 24 }}
-              source={require("../../../assets/icons/computer.png")}
-            />
-            <Image
-              style={{ width: 41, height: 32 }}
+              style={{ width: 82, height: 64 }}
               source={require("../../../assets/icons/home.png")}
             />
             <Image
               style={{ width: 27, height: 33 }}
               source={require("../../../assets/icons/security.png")}
             />
-          </View>
+            </View>
+            <View style={styles.textContent}>
+            <Text style={styles.pageTitle}>SMART</Text>
+            <Text style={styles.pageSubTitle}>Vaso inteligente</Text>
+            </View>
+          
         </View>
 
         {/* Container that holds the two main buttons */}
@@ -115,7 +113,7 @@ const Homescreen = ({ navigation }) => {
           {/* When pressed, this first button sends the user 
           to "Connected" component/page */}
           <NewButton
-            bgColor={"#8a2be2"}
+            bgColor={"#228b22"}
             width={120}
             height={90}
             bRadius={10}

@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '100%',
-    backgroundColor: '#8a2be2',
+    backgroundColor: '#228b22',
     marginTop: '7.3%',
   },
   contentTexts: {

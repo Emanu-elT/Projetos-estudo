@@ -735,7 +735,7 @@ const AirFocused = (props) => {
               onPress={() => handleIncreaseCurrentTemp(true)}
               width={45}
               height={45}
-              bgColor={"#454ADE"}
+              bgColor={"#228b22"}
               bRadius={100}
               title="+"
               txtColor="white"
@@ -746,7 +746,7 @@ const AirFocused = (props) => {
               onPress={() => handleDecreaseCurrentTemp(true)}
               width={45}
               height={45}
-              bgColor={"#454ADE"}
+              bgColor={"#228b22"}
               bRadius={100}
               title="-"
               txtColor="white"
@@ -782,7 +782,7 @@ const AirFocused = (props) => {
             onPress={() => handleNoPeople(true)}
             width={100}
             height={50}
-            bgColor={"#454ADE"}
+            bgColor={"#228b22"}
             bRadius={10}
             title={(noPeople == 'ON') ? 'TURN OFF' : 'TURN ON'}
             txtColor="white"
@@ -796,7 +796,7 @@ const AirFocused = (props) => {
         <NewButton
           width={100}
           height={50}
-          bgColor={"#454ADE"}
+          bgColor={"#228b22"}
           bRadius={10}
           title={"UPDATE"}
           txtColor="white"

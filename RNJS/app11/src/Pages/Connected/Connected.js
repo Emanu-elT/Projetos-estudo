@@ -91,8 +91,8 @@ export default function Connected() {
           labelStyle: { fontSize: 15, paddingBottom: 5 },
           activeTintColor: 'white',
           inactiveTintColor: '#A2A1A1',
-          activeBackgroundColor: '#8a2be2',
-          inactiveBackgroundColor: '#8a2be2'
+          activeBackgroundColor: '#228b22',
+          inactiveBackgroundColor: '#228b22'
         }}
       >
         {/* Creating our 2 tabs */}

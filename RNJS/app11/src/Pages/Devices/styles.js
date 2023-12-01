@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     //justifyContent: 'space-between',
     //top: 50,
     marginBottom: 10,
-    backgroundColor: 'white',
+    backgroundColor: '#ffffe0',
   },
 });
 

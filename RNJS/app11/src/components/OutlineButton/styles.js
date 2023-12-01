@@ -7,10 +7,10 @@ const styles = StyleSheet.create({
     height: 90,
     borderRadius: 10,
     borderWidth: 2,
-    borderColor: 'blueviolet',
+    borderColor: '#228b22',
   },
   text: {
-    color: "#8a2be2",
+    color: "#228b22",
     fontSize: 17,
     marginTop: "25%",
     textAlign: "center",
