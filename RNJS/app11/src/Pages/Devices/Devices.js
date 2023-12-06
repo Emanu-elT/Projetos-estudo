@@ -6,6 +6,7 @@ import Sensor from "../../../assets/icons/sensor.png";
 import DevicesOptions from "../../components/DevicesOptions/DevicesOptions.js";
 import AirFocused from "../../components/DevicesOptions/AirFocused/AirFocused.js";
 import SensorFocused from "../../components/DevicesOptions/SensorFocused/SensorFocused.js";
+import ContAtua from "../../components/DevicesOptions/ContAtua/ContAtua.js";
 
 import styles from "./styles.js";
 
@@ -74,10 +75,10 @@ const Devices = ({ navigation }) => {
           }}
           onPress={focusFirstDevicesOptions}>
           <DevicesOptions
-            title="Bomba d'agua"
+            title="Controle do vaso"
             iconWidth={40}
             iconHeight={37}
-            icon={Air}
+            icon={Sensor}
           ></DevicesOptions>
         </TouchableOpacity>
 
@@ -98,12 +99,12 @@ const Devices = ({ navigation }) => {
         </TouchableOpacity>
 
         {isFirstFocused ? (
-          <AirFocused
-            title="AR CONDICIONADO"
+          <ContAtua
+            title="Vaso"
             iconWidth={40}
             iconHeight={37}
             icon={Air}
-          ></AirFocused>
+          ></ContAtua>
         ) : null}
 
         {isSecondFocused ? (

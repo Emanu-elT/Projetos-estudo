@@ -119,7 +119,8 @@ const SensorFocused = (props) => {
     //   console.log("\n[SensorFocused] Set values via Interval function\n")
     //   getToken("@storage_Key")
     // }, 180000);
-  })
+  }
+  )
 
   return (
     <View style={styles.focused}>
